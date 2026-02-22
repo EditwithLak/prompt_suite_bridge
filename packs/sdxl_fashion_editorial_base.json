@@ -1,0 +1,25 @@
+{
+  "name": "SDXL Fashion Editorial Base",
+  "version": "0.1",
+  "description": "Base positive/negative scaffolding + camera/lighting presets for fashion/editorial SDXL prompts.",
+  "positive": {
+    "prefix": "RAW photo, fashion editorial, high detail, realistic skin texture",
+    "suffix": "sharp focus, shallow depth of field, bokeh, subtle film grain, high quality",
+    "camera": {
+      "Portrait (85mm)": "85mm lens, f/1.8, close-up portrait",
+      "Waist-up": "50mm lens, waist-up framing",
+      "Full-body": "35mm lens, full-body shot",
+      "Cinematic wide": "24mm lens, cinematic wide shot"
+    },
+    "lighting": {
+      "Soft window light": "soft window light, gentle shadows",
+      "Studio softbox": "studio softbox lighting, clean background",
+      "Golden hour": "golden hour sunlight, warm rim light",
+      "Neon night": "neon street lighting, reflections, moody atmosphere"
+    }
+  },
+  "negative": {
+    "base": "lowres, blurry, out of focus, bad anatomy, extra limbs, extra fingers, missing fingers, deformed hands, bad hands, malformed, text, watermark, logo, jpeg artifacts, worst quality",
+    "male_only_addon": "female, woman, women, girl, breasts, vagina, pussy, dress"
+  }
+}
